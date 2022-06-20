@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    background-color: #64A6BD;
+    color: #FEFDFF;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar_logo {
+    max-width: 100px;
+    position: relative;
+}
+
+.navbar_header {
+    margin-left: 10px;
+    position: relative;
+}
