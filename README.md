@@ -8,3 +8,5 @@
 
 - Create a seperate .js file with data to map over on the page
     - Title, location, Google Maps link, start date, end date, description, imageURL 
+
+- Started adding data to the js file.
