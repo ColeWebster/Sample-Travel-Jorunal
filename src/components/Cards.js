@@ -21,8 +21,8 @@ export default function Cards() {
         </div>
 
         <h1 className="card_bandName">Bleachers</h1>
-        <p>Date</p>
-        <p>
+        <p className="card_date">Date</p>
+        <p className="card_text">
           Saw Bleachers on their stop in Florida after canceling the first tour
           due to concerns over the COVID-19 virus. Song highlights included:
           'Rollercoaster' 'Don't Take the Money' 'I Wanna Get Better'.

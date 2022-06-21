@@ -31,21 +31,20 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     background-color: #CECCCC;
+    height: 400px;
 }
 
 .card_img {
     display: flex;
     border-radius: 25px;
     width: 45%;
-    float: left;
 }
 
 .card_info {
     display: flex;
     flex-direction: column;
-    float: left;
+    margin-left: 20px;
 }
 
 .card_info_header {
@@ -63,13 +62,26 @@ body {
     letter-spacing: .1rem;
     align-text: center;
     margin-right: 10px;
+    margin-left: 5px;
 }
 
 .card_bandName {
-    font-size: 25px;
+    font-size: 35px;
     margin-top: 3px;
+    justify-text: center;
 }
 
 a {
     color: #232C33;
+}
+
+.card_date {
+    margin-top: 1px;
+    font-weight: bold;
+    font-size: 20px;
+    justify-text: center;
+}
+
+.card_text {
+    font-size: 20px;
 }
