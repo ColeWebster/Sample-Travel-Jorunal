@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    background-color: #64A6BD;
+    color: #FEFDFF;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar_logo {
+    max-width: 100px;
+    position: relative;
+}
+
+.navbar_header {
+    margin-left: 10px;
+    position: relative;
+}
+
+.card_container {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #CECCCC;
+}
+
+.card_img {
+    display: flex;
+    border-radius: 25px;
+    width: 45%;
+    float: left;
+}
+
+.card_info {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.card_info_header {
+    display: flex;
+    flex-direction: row;
+}
+
+.card_pin_logo {
+    color: green;
+}
