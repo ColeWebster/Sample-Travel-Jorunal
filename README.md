@@ -10,3 +10,14 @@
     - Title, location, Google Maps link, start date, end date, description, imageURL 
 
 - Started adding data to the js file.
+
+## 6/20
+- Created Navbar
+- Added icons to project
+- Styled the Navbar
+
+## 6/21
+- Began testing layout for cards with concert information
+- Styled cards
+- Updated file structure.
+- Added asset folders. 

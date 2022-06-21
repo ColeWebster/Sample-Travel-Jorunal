@@ -51,8 +51,25 @@ body {
 .card_info_header {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .card_pin_logo {
     color: green;
+}
+
+.card_location {
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    align-text: center;
+    margin-right: 10px;
+}
+
+.card_bandName {
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+a {
+    color: #232C33;
 }
