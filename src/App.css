@@ -32,7 +32,8 @@ body {
     display: flex;
     flex-direction: row;
     background-color: #CECCCC;
-    height: 400px;
+    height: auto;
+    max-width: 100%;
 }
 
 .card_img {
@@ -87,5 +88,17 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
-    
+    .card_container {
+        flex-direction: column;
+    }
+
+    .card_img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar_header {
+        font-size: 24px;
+    }
   }
